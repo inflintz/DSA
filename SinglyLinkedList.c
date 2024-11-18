@@ -33,7 +33,7 @@ void insert(int X, List L, Position P) {
     }
 }
 
-int find_previous(int X, List L) {
+List find_previous(int X, List L) {
     Position P;
     P=L;
     while((P!=NULL) && (P->next->data!=X)) {
